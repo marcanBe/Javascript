@@ -1,0 +1,15 @@
+const kelvin = 0;
+// This keeps the variable kelvin at 293 as it cannot be changed.
+const celsius = kelvin - 273;
+//converting kelvin to celsius
+let fahrenheit = celsius * (9/5) + 32;
+//converting celsius to fahrenheit
+fahrenheit = Math.floor(fahrenheit)
+// rounding down 
+let newton = celsius * (33/100)
+newton = Math.floor(newton)
+console.log(`in kelvin ${kelvin}.`)
+console.log(`in clesius ${celsius}`)
+console.log(`in newton ${newton}`)
+console.log(`The temperature is ${fahrenheit}`)
+// printing to console
