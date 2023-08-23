@@ -1,0 +1,12 @@
+let myAge =14;
+let earlyYears = 2;
+earlyYears *= 10.5;
+//these values will change
+let laterYears = myAge - 2;
+//this will be multiplied by 4 later
+laterYears *= 4;
+// this take my age and multiplies by 4.
+let myAgeInDogYears = earlyYears+laterYears;
+
+myName = "ben".toLowerCase();
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
